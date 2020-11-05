@@ -49,7 +49,7 @@ setTimeout(function () {
       puntiUtente++;
       listaNumeriRicordati.push(listaNumeriUtente[i]);
     }
-    
+
   }
 
   console.log("numeri pc: " + listaNumeriPc);
@@ -57,7 +57,7 @@ setTimeout(function () {
   console.log("Hai ricordato: " + puntiUtente + " / 5");
   console.log("i numeri che hai ricordato sono: " + listaNumeriRicordati);
 
-}, 3 * 1000);
+}, 30 * 1000);
 
 // FUNZIONI
 // funzione per generare numeri random
